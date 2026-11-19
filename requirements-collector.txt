@@ -1,0 +1,2 @@
+# Optional capture environment; do not install into the deployed ERP environment.
+scrapling[fetchers]==0.4.15

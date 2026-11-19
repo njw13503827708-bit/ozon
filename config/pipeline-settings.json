@@ -1,0 +1,15 @@
+{
+  "app_mode": "production",
+  "analysis_concurrency": 3,
+  "category_concurrency": 3,
+  "pricing_concurrency": 5,
+  "copy_concurrency": 3,
+  "image_generation_concurrency": 1,
+  "image_generation_provider": "openai_images2",
+  "image_slot_concurrency": 3,
+  "merge_image_generation_and_qc": true,
+  "image_qc_concurrency": 2,
+  "ozon_write_concurrency": 1,
+  "max_selected_skus_per_product": 10,
+  "timeouts_seconds": {"image_generation": 600, "image_qc": 600}
+}

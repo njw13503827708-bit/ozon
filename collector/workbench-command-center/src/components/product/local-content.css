@@ -1,0 +1,19 @@
+.local-content-editor { min-width: 0; margin-top: 20px; }
+.local-content-editor section { margin-top: 20px; padding: 14px; border: 1px solid #ffffff20; border-radius: 12px; }
+.local-content-editor p, .local-content-editor code, .local-content-editor pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 12px; margin: 8px 0; }
+.keyword-proposal, .rich-module { display: grid; gap: 8px; margin: 12px 0; padding: 12px; background: #ffffff06; border-radius: 10px; min-width: 0; }
+.local-content-editor label { display: grid; gap: 6px; font-size: 12px; min-width: 0; }
+.local-content-editor input, .local-content-editor textarea, .local-content-editor select { width: 100%; min-width: 0; border: 1px solid #ffffff25; border-radius: 6px; background: #0b241d; padding: 8px; color: #ecfdf5; }
+.local-content-editor textarea { min-height: 88px; }
+.local-content-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.rich-local-preview article { margin: 12px 0; padding: 12px; border: 1px solid #ffffff20; border-radius: 8px; }
+.rich-local-preview img { max-width: 100%; max-height: 280px; object-fit: contain; }
+.local-content-editor h5 { font-size: 16px; overflow-wrap: anywhere; }
+@media (max-width: 600px) { .local-content-editor section { padding: 8px; } .local-content-actions > button { flex: 1 1 110px; } }
+@media (max-width: 600px) {
+  .local-content-drawer .detail-drawer { min-width: 0; }
+  .local-content-drawer .drawer-actions { flex-wrap: wrap; }
+  .local-content-drawer .detail-section-grid { grid-template-columns: minmax(0, 1fr); min-width: 0; padding: 12px; }
+  .local-content-drawer .detail-section { min-width: 0; }
+  .local-content-drawer [data-radix-scroll-area-viewport] > div { display: block !important; }
+}
